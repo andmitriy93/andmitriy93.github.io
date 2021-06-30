@@ -126,6 +126,19 @@ nav.navbar.bootsnav {
     padding: 33px 0px 57px;
     text-transform: uppercase;
 }
+#dmitrii {
+    -webkit-animation: color-change 1s infinite alternate;
+}
+@-webkit-keyframes color-change {
+    0% {color: #eb2f06;}
+    15% {color: #fa983a;}
+    30% {color: #fff200;}
+    45% {color: #32ff7e;}
+    60% {color: #2d98da;}
+    75% {color:#4b7bec }
+    100% {color: #a55eea;}
+
+}
 /*.navbar-brand*/
 
 /*.nav li*/
